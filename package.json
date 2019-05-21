@@ -1,0 +1,13 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^24.5.0",
+    "jest-junit": "^6.4.0"
+  },
+  "scripts": {
+    "test": "JEST_JUNIT_INCLUDE_CONSOLE_OUTPUT=true jest --reporters=jest-junit"
+  }
+}
