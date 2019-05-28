@@ -8,6 +8,6 @@
     "jest-junit": "^6.4.0"
   },
   "scripts": {
-    "test": "JEST_JUNIT_INCLUDE_CONSOLE_OUTPUT=true jest --reporters=jest-junit"
+    "test": "JEST_JUNIT_INCLUDE_CONSOLE_OUTPUT=true jest --verbose false --reporters=jest-junit"
   }
 }
